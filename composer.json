@@ -1,0 +1,31 @@
+{
+    "name": "254sms/254sms",
+    "description": "An Official 254 SmS PHP SDK Application",
+    "keywords": [
+        "sms",
+        "api",
+        "254sms"
+    ],
+    "homepage": "https://github.com/Gicehajunior/254sms.git",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "254 SMS",
+            "email": "support@254talk.com",
+            "homepage": "https://www.254sms.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "guzzlehttp/guzzle": "7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "SMS254\\SDK\\": "src/"
+        }
+    }
+}
